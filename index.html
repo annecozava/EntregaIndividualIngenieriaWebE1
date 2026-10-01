@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Supermercado Deusto - Gestión de Stock y Compras</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="images/icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <!-- CABECERA DE NAVEGACIÓN GLOBAL -->
+    <header id="cabecera-principal" class="cabecera">
+        <div class="contenedor-logo">
+            <img src="images/icon.png" alt="Logotipo del Supermercado" class="logo">
+            <h1 class="titulo">Supermercado Deusto</h1>
+        </div>
+        
+        <nav aria-label="Navegación principal">
+            <ul class="menu">
+                <li><a href="index.html" class="enlace-activo">Inicio</a></li>
+                <li><a href="productos.html">Stock y Productos</a></li>
+                <li><a href="detalle-producto.html">Detalle de Producto</a></li>
+                <li><a href="pagar.html">Pagar</a></li>
+                <li><a href="ayuda.html">FAQ y Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL-->
+    <main id="contenido">
+        <section class="presentacion">
+          <div class="contenedor">
+            <div class="texto-inicio">
+              <h2>Tu supermercado de confianza</h2>
+              <p>Este proyecto es una maqueta de aplicación web de supermercado: consulta qué hay
+                en las estanterías al momento, revisa la ficha de cada producto y paga tu cesta desde un
+                formulario.</p>
+              <div class="botones">
+                <a class="btn1" href="productos.html">Ver productos</a>
+                <a class="btn2" href="pagar.html">Ir a pagar</a>
+              </div>
+            </div>
+            <div class="imagen">
+              <img src="images/carrito-sinfondo.png" alt="Ilustración de carrito con descuento">
+            </div>
+          </div>
+        </section>
+
+        <nav class="menu-pagina">
+            <div class="cabecera-caja">
+              <h2>En esta página:</h2>
+            </div>
+            <ol>
+              <li><a href="#que_es">Qué es Supermercado Deusto</a></li>
+              <li><a href="#como_funciona">Cómo gestionamos el stock</a></li>
+              <li><a href="#secciones">Secciones de la tienda</a></li>
+              <li><a href="#cifras">La tienda en cifras</a></li>
+            </ol>
+        </nav>
+
+        <!-- DESCRIPCION SUPER-->
+        <section id="que_es" class="box">
+          <h2>¿QUÉ ES ESTE SUPERMERCADO?</h2>
+          <p>
+            Este supermercado ofrece una amplia variedad de productos de alimentación, bebidas, limpieza y artículos para el hogar, con opciones pensadas para cubrir las necesidades de la compra diaria.
+          </p>
+        </section>
+
+        <!--COMO FUNCIONA-->
+        <section id="como_funciona" class="box">
+            <div class="cabecera_caja">
+                <h2>COMO GESTIONAMOS EL STOCK</h2>
+            </div>
+            <p> EL CICLO DE TRABAJO EN EL SUPERMERCADO SIGUE ESTOS PASOS:</p>
+            <ol>
+                <li>El sistema marca una referencia con stock bajo en cuanto queda poco en el almacen.</li>
+                <li>El encargado de sección repone desde el almacén de la tienda.</li>
+                <li>El cliente encuentra el producto disponible y lo añade a su cesta.</li>
+                <li>Para finalizar la compra realiza el <a href="pagar.html"></a>formulario de pago online</li>
+            </ol>
+        </section>
+
+        <!--SECCIONES DE LA TIENDA-->
+        <section id="secciones" class="box">
+            <div class="cabecera_caja">
+                <h2>Secciones de la tienda</h2>
+            </div>
+
+          <article class="cart-sections">
+            <header>
+              <div class="contenedor-imagen">
+                <img src="images/carrito-fruta.jpg" alt="Frutería" width="175" height="175">
+              </div>
+              <h3> Frutería</h3>
+            </header>
+            <div>
+              <p>Fruta y verdura de temporada, con proveedores de cercanía.</p>
+            </div>
+            <footer>
+              <p><a href="productos.html">Ver stock</a></p>
+            </footer>
+          </article>
+
+          <article class="cart-sections">
+            <header>
+              <div class="contenedor-imagen">
+                <img src="images/carrito-pan.jpg" alt="Panadería" width="175" height="175">
+              </div>
+              <h3> Panadería</h3>
+            </header>
+            <div>
+              <p>Pan del día, bollería y repostería horneada en tienda.</p>
+            </div>
+            <footer>
+              <p><a href="productos.html">Ver stock</a></p>
+            </footer>
+          </article>
+
+          <article class="cart-sections">
+            <header>
+              <div class="contenedor-imagen">
+                <img src="images/carrito-lacteos.jpg" alt="Lácteos y refrigerados" width="175" height="175">
+              </div>
+              <h3> Lácteos y refri.</h3>
+            </header>
+            <div>
+              <p>Leche, quesos y yogures conservados en cadena de frío.</p>
+            </div>
+            <footer>
+              <p><a href="productos.html">Ver stock</a></p>
+            </footer>
+          </article>
+
+          <article class="cart-sections">
+            <header>
+              <div class="contenedor-imagen">
+                <img src="images/carrito-bebidas.jpg" alt="Bebidas" width="175" height="175">
+              </div>
+              <h3> Bebidas</h3>
+            </header>
+            <div>
+              <p>Agua, refrescos y zumos, con packs para llevar a casa.</p>
+            </div>
+            <footer>
+              <p><a href="productos.html">Ver stock</a></p>
+            </footer>
+          </article>
+
+          <article class="cart-sections">
+            <header>
+              <div class="contenedor-imagen">
+                <img src="images/carrito-fruta.jpg" alt="Limpieza y hogar" width="175" height="175">
+              </div>
+              <h3> Limpieza y hogar </h3>
+            </header>
+            <div>
+              <p>Todo lo necesario para la limpieza y el cuidado del hogar, en un solo lugar.</p>
+            </div>
+            <footer>
+              <p><a href="productos.html">Ver stock</a></p>
+            </footer>
+          </article>
+        </section>
+
+        <!--CIFRAS-->
+        <section id="cifras" class="box">
+            <div class="cabecera_caja">
+              <h2>La tienda en cifras</h2>
+            </div>
+            
+            <table>
+              <thead>
+                <tr>
+                  <th>Referencias en tienda</th>
+                  <th>Secciones</th>
+                  <th>Proveedores locales</th>
+                  <th>Tickets pagados hoy</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>612</td>
+                  <td>8</td>
+                  <td>23</td>
+                  <td>184</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer id="site-footer">
+      <div class="contenedor-bottom">
+        <div>
+          <h3>Supermercado Deusto</h3>
+            <address style="font-style: normal; margin-top: 0.5rem;">
+            Avenida de las Universidades, 24<br>
+            48007 Bilbao, Bizkaia<br>
+              <a href="mailto:supermercado.deusto@deusto.es">supermercado.deusto@deusto.es</a><br>
+              <a href="tel:+944754260">944&nbsp;754&nbsp;260</a>
+            </address>
+        </div>
+      <div>
+        <h3>Navegación</h3>
+          <ul style="list-style: none; margin-top: 0.5rem;">
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="pagar.html">Pagar</a></li>
+            <li><a href="ayuda.html">Ayuda / FAQ</a></li>
+          </ul>
+      </div>
+        <div>
+          <h3>Proyecto</h3>
+            <p class="text-soft" style="margin-top: 0.5rem; color: var(--text-muted);">Prototipo web simple de Ingeniería Web —> Todas las imagenes del proyecto han sido generadas con ayuda de la IA.</p>
+        </div>
+      </div>
+      <p class="footer-bottom">&copy; <time datetime="2026">2026</time> Supermercado Deusto — Prototipo.</p>
+    </footer>
+</html>
