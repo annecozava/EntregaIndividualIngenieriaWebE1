@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado Deusto - FAQ y Ayuda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/icon.png">
+</head>
+<body>
+    <!-- CABECERA DE NAVEGACIÓN GLOBAL -->
+    <header id="cabecera-principal" class="cabecera">
+        <div class="contenedor-logo">
+            <img src="images/icon.png" alt="Logotipo del Supermercado" class="logo">
+            <h1 class="titulo">Supermercado Deusto</h1>
+        </div>
+        
+        <nav aria-label="Navegación principal">
+            <ul class="menu">
+                <li><a href="index.html" class="enlace-activo">Inicio</a></li>
+                <li><a href="productos.html">Stock y Productos</a></li>
+                <li><a href="detalle-producto.html">Detalle de Producto</a></li>
+                <li><a href="nuevo-pedido.html">Pagar</a></li>
+                <li><a href="ayuda.html">FAQ y Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contenido">
+        <section class="box">
+            <div class="cabecera-caja">
+                <h2>AYUDA Y PREGUNTAS FRECUENTES</h2>
+            </div>
+            <p> Resolución de dudas habituales sobre el stock, la cesta y el pago en Supermercado Deusto.</p>
+        </section>
+
+        <nav class="menu-pagina">
+            <div class="cabecera-caja">
+              <h2>En esta página: </h2>
+            </div>
+            <ol>
+              <li><a href="#faq">Preguntas frecuentes</a></li>
+              <li><a href="#contacto">Contacto y ubicación</a></li>
+            </ol>
+        </nav>
+
+        <section id="faq" class="box">
+            <div class="cabecera-caja">
+                <h2>Preguntas frecuentes</h2>
+            </div>
+
+            <details>
+                <summary>¿Cómo sé si un producto está disponible antes de ir a la tienda?</summary>
+                <p>En el <a href="productos.html">listado de productos</a> cada referencia muestra un estado de 
+                   <strong>Disponible</strong>, <strong>Stock bajo</strong> o <strong>Agotado</strong> según las existencias reales en el lineal.</p>
+            </details>
+
+            <details>
+                <summary>¿Puedo pagar sin tarjeta?</summary>
+                <p>Sí. En el formulario de <a href="pagar.html">pago</a> puedes elegir Bizum o efectivo al recoger el
+                   pedido, además de tarjeta de crédito o débito.</p>
+            </details>
+
+            <details>
+                <summary>¿Dónde veo el historial de stock de un producto?</summary>
+                <p>Entra en la <a href="detalle-producto.html">ficha del producto</a> y consulta la sección
+                   de detalles y disponibilidad de la referencia.</p>
+            </details>
+
+            <details>
+                <summary>¿Qué pasa si elijo recogida en tienda?</summary>
+                <p>El pedido se prepara en el horario que indiques en el formulario de pago y queda reservado en caja
+                   con tu nombre hasta que lo recojas.</p>
+            </details>
+        </section>
+
+        <section id="contacto" class="box">
+            <div class="cabecera-caja">
+              <h2>Contacto y ubicación</h2>
+            </div>
+          
+            <address>
+              Supermercado Deusto<br>
+              Avenida de las Universidades, 24<br>
+              48007 Bilbao, Bizkaia<br>
+              <a href="mailto:supermercado.deusto@deusto.es">supermercado.deusto@deusto.es</a><br>
+              <a href="tel:+34944754260">+34 944 754 260</a>
+            </address>
+          
+            <div class="contacto-imagen">
+                <img src="images/infoycontacto.jpg" alt="Ubicación Supermercado Deusto">
+            </div>
+
+            <table>
+              <caption>Horario de atención de la tienda</caption>
+              <thead>
+                <tr>
+                  <th>Día</th>
+                  <th>Horario</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Lunes a sábado</strong></td>
+                  <td>9:00 &ndash; 21:00</td>
+                </tr>
+                <tr>
+                  <td><strong>Domingos</strong></td>
+                  <td>10:00 &ndash; 14:00</td>
+                </tr>
+                <tr>
+                  <td><strong>Festivos</strong></td>
+                  <td>Cerrado</td>
+                </tr>
+              </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="site-footer">
+        <div class="contenedor-bottom">
+            <div>
+                <h3>Supermercado Deusto</h3>
+                <address style="font-style: normal; margin-top: 0.5rem;">
+                    Avenida de las Universidades, 24<br>
+                    48007 Bilbao, Bizkaia<br>
+                    <a href="mailto:supermercado.deusto@deusto.es">supermercado.deusto@deusto.es</a><br>
+                    <a href="tel:+944754260">944&nbsp;754&nbsp;260</a>
+                </address>
+            </div>
+            <div>
+                <h3>Navegación</h3>
+                <ul style="list-style: none; margin-top: 0.5rem;">
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="pagar.html">Pagar</a></li>
+                    <li><a href="ayuda.html">Ayuda / FAQ</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Proyecto</h3>
+                <p class="text-soft" style="margin-top: 0.5rem;">Prototipo web simple de Ingeniería Web —> Todas las imagenes del proyecto han sido generadas con ayuda de la IA.</p>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; <time datetime="2026">2026</time> Supermercado Deusto — Prototipo.</p>
+    </footer>
+</body>
+</html>

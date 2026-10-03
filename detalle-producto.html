@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supermercado Deusto - Detalle Producto</title>
+  <meta name="description" content="Ficha de producto: leche entera Larra 1L, movimientos de stock y comentarios internos.">
+  <link rel="icon" href="images/icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- CABECERA DE NAVEGACIÓN GLOBAL -->
+  <header id="cabecera-principal" class="cabecera">
+    <div class="contenedor-logo">
+      <img src="images/icon.png" alt="Logotipo del Supermercado" class="logo">
+      <h1 class="titulo">Supermercado Deusto</h1>
+    </div>
+    
+    <nav aria-label="Navegación principal">
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Stock y Productos</a></li>
+        <li><a href="detalle-producto.html">Detalle de Producto</a></li>
+        <li><a href="pagar.html">Pagar</a></li>
+        <li><a href="ayuda.html">FAQ y Ayuda</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <!-- VOLVER Y TÍTULO -->
+    <section class="box">
+      <p><a href="productos.html">&larr; Volver al listado de productos</a></p>
+      <h2>Leche entera Larra 1L</h2>
+    </section>
+
+    <!-- ÍNDICE DE PÁGINA -->
+    <nav class="menu-pagina">
+      <div class="cabecera-caja">
+        <h2>En esta página:</h2>
+      </div>
+      <ol>
+        <li><a href="#ficha">Ficha del producto</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#movimientos">Movimientos de stock</a></li>
+        <li><a href="#comentarios">Comentarios</a></li>
+      </ol>
+    </nav>
+
+    <!-- 1. FICHA DEL PRODUCTO -->
+    <section id="ficha" class="box">
+      <div class="cabecera-caja">
+        <h2>Ficha del producto</h2>
+      </div>
+      
+        <p>Código de referencia: <strong>LAC-0002</strong>. Leche entera <em>UHT</em> de la marca Larra, conservada en la zona de <abbr title="Producto de Denominación de Origen">D.O.</abbr> lácteos refrigerados hasta su apertura.</p>
+        <dl>
+          <dt>Formato</dt>
+          <dd>Brik de 1 litro</dd>
+          <dt>Marca</dt>
+          <dd>Larra</dd>
+          <dt>Caducidad del lote actual</dt>
+          <dd><time datetime="2026-10-05">05/10/2026</time></dd>
+          <dt>Precio unitario</dt>
+          <dd>0,95 €</dd>
+        </dl>
+        <p>Nivel de existencias actual respecto al máximo habitual en tienda (80 uds.):</p>
+        <progress value="18" max="80" aria-label="Stock actual de LAC-0002">18 de 80</progress>
+        <p><span class="badge badge-bajo">Stock bajo</span> — 18 unidades disponibles, conviene reponer hoy.</p>
+    </section>
+
+    <section id="galeria" class="box">
+        <div class="cabecera_caja">
+          <h2>Galería</h2>
+        </div>
+      
+        <div class="cart-sections">
+          <div class="contenedor-imagen">
+            <img src="images/leche.jpg" alt="Cartón de leche entera Larra" width="175" height="175">
+          </div>
+          <p>Vista frontal del envase.</p>
+        </div>
+        
+        <div class="cart-sections">
+          <div class="contenedor-imagen">
+            <img src="images/leche-detalle.jpg" alt="Detalle del producto" width="175" height="175">
+          </div>
+          <p>Detalle de la etiqueta informativa.</p>
+        </div>
+      </section>
+
+    <!-- 3. MOVIMIENTOS DE STOCK -->
+    <section id="movimientos" class="box">
+      <div class="cabecera-caja">
+        <h2>Movimientos de stock</h2>
+      </div>
+      <table>
+        <caption>Últimos movimientos registrados para LAC-0002</caption>
+        <thead>
+          <tr>
+            <th>Fecha</th>
+            <th>Tipo</th>
+            <th>Cantidad</th>
+            <th>Responsable</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><time datetime="2026-09-18">18/09/2026</time></td>
+            <td>Entrada</td>
+            <td>+60 uds.</td>
+            <td>A. Uriarte</td>
+          </tr>
+          <tr>
+            <td><time datetime="2026-09-20">20/09/2026</time></td>
+            <td>Venta en caja</td>
+            <td>&minus;34 uds.</td>
+            <td>Terminal 2</td>
+          </tr>
+          <tr>
+            <td><time datetime="2026-09-21">21/09/2026</time></td>
+            <td>Venta online</td>
+            <td>&minus;8 uds.</td>
+            <td>Pedidos web</td>
+          </tr>
+        </tbody>
+      </table>
+      <details style="margin-top: 1rem;">
+        <summary>Ver historial completo de movimientos</summary>
+        <p>El historial completo incluye 96 movimientos desde el alta del producto en el sistema, el <time datetime="2025-03-04">4 de marzo de 2025</time>. Consúltalo entero desde el informe semanal de la sección de lácteos.</p>
+      </details>
+    </section>
+
+    <section id="comentarios" class="box">
+      <div class="cabecera_caja">
+        <h2>Comentarios internos</h2>
+      </div>
+      
+      <p class="text-soft">Últimas anotaciones del equipo sobre este producto.</p>
+      
+      <ul>
+        <li><strong>A. Uriarte</strong> (<time datetime="2026-09-19">19/09/2026</time>): pedir refuerzo de stock antes del fin de semana, se agota rápido.</li>
+        <li><strong>I. Zubia</strong> (<time datetime="2026-09-20">20/09/2026</time>): un cliente avisó de un brik abombado en el lote anterior, revisar la cámara de frío.</li>
+      </ul>
+    
+      <form class="form-comentario">
+        <div class="campo">
+          <label for="comentario">Añadir un comentario</label>
+          <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe tu observación sobre este producto…"></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn1">Guardar comentario</button>
+        </div>
+      </form>
+    </section>
+  
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="site-footer">
+    <div class="contenedor-bottom">
+      <div>
+        <h3>Supermercado Deusto</h3>
+          <address style="font-style: normal; margin-top: 0.5rem;">
+          Avenida de las Universidades, 24<br>
+          48007 Bilbao, Bizkaia<br>
+            <a href="mailto:supermercado.deusto@deusto.es">supermercado.deusto@deusto.es</a><br>
+            <a href="tel:+944754260">944&nbsp;754&nbsp;260</a>
+          </address>
+      </div>
+    <div>
+      <h3>Navegación</h3>
+        <ul style="list-style: none; margin-top: 0.5rem;">
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="pagar.html">Pagar</a></li>
+          <li><a href="ayuda.html">Ayuda / FAQ</a></li>
+        </ul>
+    </div>
+      <div>
+        <h3>Proyecto</h3>
+          <p class="text-soft" style="margin-top: 0.5rem;">Prototipo web simple de Ingeniería Web —> Todas las imagenes del proyecto han sido generadas con ayuda de la IA.</p>
+      </div>
+    </div>
+    <p class="footer-bottom">&copy; <time datetime="2026">2026</time> Supermercado Deusto — Prototipo.</p>
+  </footer>
+</body>
+</html>
